@@ -1,0 +1,48 @@
+[versions]
+agp = "8.3.0"
+kotlin = "1.9.0"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+recyclerview = "1.4.0-alpha01"
+gson = "2.10.1"
+retrofit = "1.0.7"
+retrofitVersion = "2.1.0"
+squareupRetrofit = "2.10.0"
+converterGson = "2.10.0"
+squareupRetrofitVersion = "2.0.0-beta2"
+glide = "5.0.0-rc01"
+okhttp3 = "4.1.0"
+okhttp = "5.0.0-alpha.12"
+loggingInterceptor = "5.0.0-alpha.12"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+retrofit = { group = "com.github.cd-butterfly", name = "retrofit", version.ref = "retrofit" }
+rest-retrofit = { group = "at.stefangeyer.challonge.rest", name = "retrofit", version.ref = "retrofitVersion" }
+retrofit2-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "squareupRetrofit" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converterGson" }
+squareup-retrofit = { group = "com.squareup.retrofit", name = "retrofit", version.ref = "squareupRetrofitVersion" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+okhttp3 = { group = "com.growingio.android", name = "okhttp3", version.ref = "okhttp3" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "loggingInterceptor" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
